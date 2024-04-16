@@ -777,9 +777,9 @@
                                   // Set/get with G-code: M301 E[extruder number, 0-2]
 
   #if ANY(KNUTWURST_MEGA, KNUTWURST_MEGA_S, KNUTWURST_MEGA_P)
-    #define  DEFAULT_Kp 12.28
-    #define  DEFAULT_Ki  0.75
-    #define  DEFAULT_Kd 50.06
+    #define  DEFAULT_Kp 20.28
+    #define  DEFAULT_Ki 1.45
+    #define  DEFAULT_Kd 71.01
   #endif
 
   #if ENABLED(KNUTWURST_MEGA_X)
@@ -882,9 +882,9 @@
   //#define PID_BED_DEBUG // Print Bed PID debug data to the serial port.
 
   #if ANY(KNUTWURST_MEGA, KNUTWURST_MEGA_S, KNUTWURST_MEGA_P)
-    #define DEFAULT_bedKp 251.78
-    #define DEFAULT_bedKi  49.57
-    #define DEFAULT_bedKd 319.73
+    #define DEFAULT_bedKp 653.86
+    #define DEFAULT_bedKi 95.02
+    #define DEFAULT_bedKd 1124.81
   #elif ENABLED(KNUTWURST_MEGA_X)
     #define DEFAULT_bedKp 251.78
     #define DEFAULT_bedKi  49.57
@@ -2856,8 +2856,8 @@
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "ABS"
-#define PREHEAT_2_TEMP_HOTEND 240
-#define PREHEAT_2_TEMP_BED     90
+#define PREHEAT_2_TEMP_HOTEND 260
+#define PREHEAT_2_TEMP_BED     80
 //#define PREHEAT_2_TEMP_CHAMBER 35
 #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
 
