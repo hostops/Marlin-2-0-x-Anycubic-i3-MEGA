@@ -347,13 +347,13 @@
     #define WATCH_BED_TEMP_PERIOD                300 // (seconds)
     #define WATCH_BED_TEMP_INCREASE                2 // (°C)
   #else
-    #define THERMAL_PROTECTION_BED_PERIOD        30 // (seconds)
-    #define THERMAL_PROTECTION_BED_HYSTERESIS     2 // (°C)
+    #define THERMAL_PROTECTION_BED_PERIOD        60 // (seconds)
+    #define THERMAL_PROTECTION_BED_HYSTERESIS     20 // (°C)
 
     /**
      * As described above, except for the bed (M140/M190/M303).
      */
-    #define WATCH_BED_TEMP_PERIOD               120 // (seconds)
+    #define WATCH_BED_TEMP_PERIOD              300 // (seconds)
     #define WATCH_BED_TEMP_INCREASE               2 // (°C)
   #endif
 #endif
